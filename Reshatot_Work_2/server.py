@@ -17,7 +17,7 @@ def start_server(host, port):
         ServerSocket.bind((host, port))  # Bind the socket to the host IP and port
     except socket.error as e:  # If an error occurs during binding
         print(str(e))  # Print the error message
-        logs.append(f"Error during binding: {e}")  # Add the error to logs
+        logs.append(f"Error during binding: {e}")  # Add the error to logsss
         sys.exit()  # Exit the server if binding fails
     print(f"Server is listening on the port {port}...\n" 
     f"Type 'terminate' to shut down the server.")  # Print a message indicating the server is now listening
