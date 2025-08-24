@@ -1,1 +1,80 @@
-A multi-participant chat system based on Sockets in Python using TCP communication. The system implements parallel bidirectional communication between clients, both privately and globally, through the server. Each client has a user interface guiding them through the various chat operations. At the end of the session, when the server is shut down, a text file containing all chat logs is saved.
+🗨️ Socket Chat Application
+📌 Description
+
+This project is an implementation of a Client–Server Chat Application built with Python sockets.
+The system allows multiple clients to connect to a central server, send public or private messages, and communicate in real-time.
+
+⚙️ Technologies Used
+
+Python 3
+
+socket – for TCP/IP communication
+
+threading / _thread – to handle multiple clients concurrently
+
+sys – for server shutdown and process handling
+
+I/O – for user input and message display
+
+✨ Features
+
+Supports multiple clients simultaneously via threads
+
+Broadcast messages to all connected users
+
+Private messaging using @username
+
+Graceful disconnection with the BYE command
+
+Server activity logs saved to server_logs.txt
+
+Admin command terminate to shut down the server safely
+
+📂 File Structure
+📦 ChatApp
+ ┣ 📜 server.py        # Server script - handles connections, messages, and logs
+ ┣ 📜 client.py        # Client script - sends and receives messages
+ ┗ 📜 server_logs.txt  # Log file generated automatically by the server
+ 🚀 How to Run
+Requirements
+
+Python 3 installed
+
+No external dependencies required (only Python standard library)
+
+Run the Server
+python server.py
+
+Run a Client
+python client.py
+
+Usage Instructions
+
+Start the server first.
+
+Then run one or more clients.
+
+Each client will be asked to enter a unique username.
+
+To send a public message, just type and press Enter.
+
+To send a private message, use:
+
+@username your message
+
+
+To disconnect: type BYE.
+
+To shut down the server: in the server terminal, type terminate.
+
+👨‍💻 About Me
+
+Shahar Rushetzky
+
+B.Sc. Computer Science student at HIT
+
+Software Automation Developer & QA Engineer 
+
+🔗 LinkedIn Profile: https://www.linkedin.com/in/shahar-rushetzky/
+
+📞 Phone: +972-52-7729726
