@@ -1,10 +1,11 @@
-🗨️ Socket Chat Application
+# 🗨️ Socket Chat Application
+
 📌 Description
 
 This project is an implementation of a Client–Server Chat Application built with Python sockets.
 The system allows multiple clients to connect to a central server, send public or private messages, and communicate in real-time.
 
-⚙️ Technologies Used
+## ⚙️ Technologies Used
 
 Python 3
 
@@ -16,7 +17,7 @@ sys – for server shutdown and process handling
 
 I/O – for user input and message display
 
-✨ Features
+## ✨ Features
 
 Supports multiple clients simultaneously via threads
 
@@ -30,12 +31,15 @@ Server activity logs saved to server_logs.txt
 
 Admin command terminate to shut down the server safely
 
-📂 File Structure
+## 📂 File Structure
+
 📦 ChatApp
  ┣ 📜 server.py        # Server script - handles connections, messages, and logs
  ┣ 📜 client.py        # Client script - sends and receives messages
  ┗ 📜 server_logs.txt  # Log file generated automatically by the server
- 🚀 How to Run
+
+ 
+## 🚀 How to Run
 Requirements
 
 Python 3 installed
@@ -67,14 +71,12 @@ To disconnect: type BYE.
 
 To shut down the server: in the server terminal, type terminate.
 
-👨‍💻 About Me
+## 👨‍💻 Author
 
 Shahar Rushetzky
 
-B.Sc. Computer Science student at HIT
+📞 Phone: +972 52-7729726
 
-Software Automation Developer & QA Engineer 
+📧 Email: sroshetzky@gmail.com
 
-🔗 LinkedIn Profile: https://www.linkedin.com/in/shahar-rushetzky/
-
-📞 Phone: +972-52-7729726
+🔗 LinkedIn: [Shahar Rushetzky](https://www.linkedin.com/in/shahar-rushetzky/)
