@@ -42,7 +42,7 @@ Admin command terminate to shut down the server safely
 
  
 ## 🚀 How to Run
-Requirements
+Requirements:
 
 Python 3 installed
 
@@ -54,7 +54,7 @@ python server.py
 Run a Client
 python client.py
 
-Usage Instructions
+Usage Instructions:
 
 Start the server first.
 
