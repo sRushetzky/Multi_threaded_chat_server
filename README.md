@@ -33,12 +33,12 @@ Admin command terminate to shut down the server safely
 
 ## 📂 File Structure
 
- 📜 server.py
-  Server script - handles connections, messages, and logs
- 📜 client.py 
-  Client script - sends and receives messages
- 📜 server_logs.txt
-  Log file generated automatically by the server
+ server.py
+
+ client.py 
+ 
+ server_logs.txt
+ 
 
  
 ## 🚀 How to Run
